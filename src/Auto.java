@@ -3,7 +3,9 @@ public class Auto {
     public int predkosc;
 
     Auto(){
-        kolor =
+        kolor = "standardowy kolor";
+        predkosc=100;
+
     }
     public void jedzie() {
         System.out.println("Auto jedzie");
