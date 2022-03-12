@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
-public class Testowa {
+public class Notatka{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        String dzialanie = "1";
+        while (dzialanie != "x") {
+            System.out.println("Podaj dzialanie(d-dodawanie, o-odejmowanie, x-wyjscie): ");
+            String a = String.valueOf(input.nextInt());
+        }
+
     }
-
-
-
-
-
-
-
+}
 
 
 
