@@ -1,4 +1,4 @@
-public class Main {
+public class NawiazywanieDoMain {
 
 
     int a = 111;      // <---------------------NAWIAZANIE KOMENDA Main ob = new Main();
@@ -13,7 +13,7 @@ public class Main {
         // KLAMRA OTWARTA I ZAMKNIETA POWODUJE ODCIECIE KODU
 
 
-        Main ob = new Main();              // <----------------NAWIAZANIE DO MAIN
+        NawiazywanieDoMain ob = new NawiazywanieDoMain();              // <----------------NAWIAZANIE DO MAIN
         System.out.println(ob.a);
 
 
