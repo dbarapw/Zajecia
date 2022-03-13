@@ -1,19 +1,14 @@
 public class KlasaPrywatna {
     private int a;
+    private int b;
 
-    KlasaPrywatna(){
-        this.a=100;
+    KlasaPrywatna(int a,int b){
+        this.a=a;
+        this.b=b;
+    }
+    public void suma(){
+        System.out.println(this.a+this.b);
+
     }
 
-    public void wypisanie_a(){
-        System.out.println(this.a);
-        powiekszanie_a();
-        System.out.println(this.a);
-    }
-    public int get_a(){
-        return this.a;
-    }
-    private void powiekszanie_a(){
-        this.a+=10;
-    }
 }
