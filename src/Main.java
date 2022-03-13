@@ -26,9 +26,12 @@ public class Main {
             } else {
                 System.out.println("Tab1 jest wieksza");
             }
+// JAK DZIALA FUNKCJA MATH
 
-
+        }
+        for (int i = 0; i < tab1.length; i++) {
+            System.out.println((tab1[i] > tab2[i])?"Tab1 nie jest wiekszy" : "Tab2 jest wiekszy");
+            //LADNE UZYCIE FUNKCJI IF
         }
     }
 }
-
