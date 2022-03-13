@@ -1,4 +1,4 @@
-public class Main {
+public class ForEach {
     public static void main(String[] args) {
         int tab1[] = {12, 21, 33, 41, 56, 67, 57};
         int tab2[] = {52, 33, 14, 55, 67, 78, 94};
