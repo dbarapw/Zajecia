@@ -25,6 +25,21 @@ public class PrzeciazanieMetodFunkcji2 {
         System.out.println(ob.a);
 
     }
+
+    /*
+    //Przeciążanie metod funkcji czyli tworzenie tej samej nazwy z różnymi parametrami
+    public int suma(int a,int b,int c){
+        return a+b+c;
+    }
+    public int suma(int a,int b){
+        return a+b;
+    }
+    public float suma(float a,float b){
+        return a+b;
+    }
+    public float suma(int a,float b){
+        return a+b;
+    }*/
 }
 
 
